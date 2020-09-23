@@ -1,0 +1,40 @@
+.container {
+  height: 60%;
+  font-size: 14px;
+  color: #111111;
+  .selAddress {
+    height: 60px;
+    display: flex;
+    border-bottom: 1px solid #eee;
+    div {
+      height: 60px;
+      align-items: center;
+
+      &:nth-child(1) {
+        width: 80px;
+        padding: 15px 6px 15px 15px;
+      }
+      &:nth-child(2) {
+        flex: 1;
+        padding: 15px 0;
+        span {
+          color: #ef4034;
+          margin-right: 6px;
+        }
+      }
+    }
+  }
+
+  .address {
+    height: 60vh;
+    padding: 15px;
+    .note {
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .area {
+      height: 30px;
+      line-height: 30px;
+    }
+  }
+}

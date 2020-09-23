@@ -1,0 +1,37 @@
+{
+  "id": "1571270",
+  "name": "bht",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8897338",
+      "name": "编辑",
+      "font_class": "bianji1",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "3327609",
+      "name": "Avatar",
+      "font_class": "Avatar",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "10413640",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "6280039",
+      "name": "增加",
+      "font_class": "zengjia",
+      "unicode": "e733",
+      "unicode_decimal": 59187
+    }
+  ]
+}

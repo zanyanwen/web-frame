@@ -1,0 +1,26 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "modules": false,
+      "targets": "ios>=9, android>=5, >=1% in cn, not dead",
+      "useBuiltIns": "usage",
+      "corejs": 3,
+      "loose": true
+    }],
+    "@babel/react"
+  ],
+  "plugins": [
+    "@babel/transform-runtime",
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    "@babel/proposal-object-rest-spread",
+    ["import", { "libraryName": "antd-mobile", "style": true }]
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "babel-plugin-transform-react-remove-prop-types"
+      ]
+    }
+  }
+}
